@@ -1,0 +1,14 @@
+<h3>program 1 output</h1>
+<img src="op1.png" alt="1">
+<h3>program 2 output</h1>
+<img src="op2.png" alt="2">
+<h3>program 3 output</h1>
+<img src="op3.png" alt="3">
+<h3>program 4 output</h1>
+<img src="op4.png" alt="4">
+<h3>program 5 output</h1>
+<img src="op5.png" alt="5">
+<h3>program 6 output</h1>
+<img src="op6.png" alt="6">
+<h3>program 7 output</h1>
+<img src="op7.png" alt="7">
