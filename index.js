@@ -11,6 +11,8 @@ for(let i=1;i<=n;i++){
 
 
 
+
+
 // 2. Print the sum of all even numbers in a range from a to b. (Including a,b) 
 
 let a=parseInt(process.argv[2]);
@@ -72,13 +74,14 @@ else{
 
 let a=parseInt(process.argv[2]);
 let b=parseInt(process.argv[3]);
-let sum=0;
-for(let i=a;i<=b;i++){
+let product=1;
+for(let i=1;i<=b;i++){
+    let b=Math.floor(i%100/10);
     if(i%10==4 && i%2==0){
-        sum=sum+i;
+        product=product*i;
     }
 }
-console.log("sum of all numbers between a and b that satisfy condition is "+sum);
+console.log("sum of all numbers between a and b that satisfy condition is "+product);
 
 
 
