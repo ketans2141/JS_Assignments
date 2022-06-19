@@ -75,13 +75,19 @@ else{
 let a=parseInt(process.argv[2]);
 let b=parseInt(process.argv[3]);
 let product=1;
-for(let i=1;i<=b;i++){
-    let b=Math.floor(i%100/10);
-    if(i%10==4 && i%2==0){
+for(let i=a;i<=b;i++){
+    // let b=Math.floor(i%100/10);
+    if(i%2==0  && parseInt(i/10)%10==4){
+        a>=40;
         product=product*i;
     }
 }
-console.log("sum of all numbers between a and b that satisfy condition is "+product);
+if(product<1680){
+    console.log("condition is not satisfied");
+}else{
+    console.log(product);
+}
+// console.log("sum of all numbers between a and b that satisfy condition is "+product);
 
 
 
